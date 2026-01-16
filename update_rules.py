@@ -3,7 +3,7 @@ import os
 from datetime import datetime
 
 # Настройки
-SOURCE_URL = "https://raw.githubusercontent.com/ImMALWARE/dns.malw.link/master/hosts"
+SOURCE_URL = "https://raw.githubusercontent.com/Internet-Helper/GeoHideDNS/refs/heads/main/hosts/hosts"
 PROXY_IP = "185.87.51.182"
 CUSTOM_FILE = "custom_domains.txt"
 OUTPUT_FILE = "my_ready_rules.txt"
