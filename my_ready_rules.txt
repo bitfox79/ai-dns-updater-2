@@ -1,6 +1,6 @@
 ! AI Unlocker Rules
-! Обновлено: 20.04.2026 07:17:27
-! Правил: 156 из 1000
+! Обновлено: 21.04.2026 06:58:28
+! Правил: 163 из 1000
 ! Формат: AdGuard DNS Rewrite
 
 ! --- OPENAI ---
@@ -158,13 +158,20 @@
 ||anthropic.com^$dnsrewrite=45.155.204.190
 ||api.anthropic.com^$dnsrewrite=45.155.204.190
 ||api.claude.ai^$dnsrewrite=45.155.204.190
+||api.claude.com^$dnsrewrite=45.155.204.190
 ||api.console.anthropic.com^$dnsrewrite=45.155.204.190
 ||auth.anthropic.com^$dnsrewrite=45.155.204.190
 ||claude.ai^$dnsrewrite=45.155.204.190
+||claude.com^$dnsrewrite=45.155.204.190
+||claudemcpclient.com^$dnsrewrite=45.155.204.190
 ||console.anthropic.com^$dnsrewrite=45.155.204.190
+||platform.claude.ai^$dnsrewrite=45.155.204.190
+||platform.claude.com^$dnsrewrite=45.155.204.190
 ||s-cdn.anthropic.com^$dnsrewrite=45.155.204.190
 ||statsig.anthropic.com^$dnsrewrite=45.155.204.190
 ||status.anthropic.com^$dnsrewrite=45.155.204.190
 ||support.anthropic.com^$dnsrewrite=45.155.204.190
 ||www.anthropic.com^$dnsrewrite=45.155.204.190
 ||www.claude.ai^$dnsrewrite=45.155.204.190
+||www.claude.com^$dnsrewrite=45.155.204.190
+||www.claudemcpclient.com^$dnsrewrite=45.155.204.190
