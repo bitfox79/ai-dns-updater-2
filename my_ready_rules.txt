@@ -1,11 +1,12 @@
 ! AI Unlocker Rules
-! Обновлено: 14.06.2026 08:41:37
-! Правил: 163 из 1000
+! Обновлено: 15.06.2026 10:55:23
+! Правил: 220 из 1000
 ! Формат: AdGuard DNS Rewrite
 
 ! --- OPENAI ---
 ||ab.chatgpt.com^$dnsrewrite=45.155.204.190
 ||android.chat.openai.com^$dnsrewrite=45.155.204.190
+||api.chatgpt.com^$dnsrewrite=45.155.204.190
 ||api.openai.com^$dnsrewrite=45.155.204.190
 ||arena.openai.com^$dnsrewrite=45.155.204.190
 ||auth.openai.com^$dnsrewrite=45.155.204.190
@@ -15,32 +16,86 @@
 ||blog.openai.com^$dnsrewrite=45.155.204.190
 ||cdn.oaistatic.com^$dnsrewrite=45.155.204.190
 ||cdn.openai.com^$dnsrewrite=45.155.204.190
+||cdn.platform.openai.com^$dnsrewrite=45.155.204.190
 ||chat.openai.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-centralus-0.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-centralus-1.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-centralus-2.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-centralus-3.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-centralus-4.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-centralus-5.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-eastus-0-9e29c0310a29a59b.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-eastus-0.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-eastus-1-9e29c0310a29a59b.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-eastus-1.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-eastus-2-9e29c0310a29a59b.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-eastus-2.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-eastus-3-9e29c0310a29a59b.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-eastus-3.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-eastus-4-9e29c0310a29a59b.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-eastus-4.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-eastus-5-9e29c0310a29a59b.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-eastus-5.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-southcentralus-0.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-southcentralus-1.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-southcentralus-2.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-southcentralus-3.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-southcentralus-4.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-southcentralus-5.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-westus-0-9e29c0310a29a59b.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-westus-0.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-westus-1-9e29c0310a29a59b.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-westus-1.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-westus-2-9e29c0310a29a59b.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-westus-2.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-westus-3-9e29c0310a29a59b.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-westus-3.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-westus-4-9e29c0310a29a59b.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-westus-4.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-westus-5-9e29c0310a29a59b.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-prod-westus-5.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-staging-eastus-0.chatgpt.com^$dnsrewrite=45.155.204.190
+||chatgpt-async-webps-staging-southcentralus-0.chatgpt.com^$dnsrewrite=45.155.204.190
 ||chatgpt.com^$dnsrewrite=45.155.204.190
 ||community.openai.com^$dnsrewrite=45.155.204.190
 ||contest.openai.com^$dnsrewrite=45.155.204.190
 ||debate-game.openai.com^$dnsrewrite=45.155.204.190
+||developers.openai.com^$dnsrewrite=45.155.204.190
 ||discuss.openai.com^$dnsrewrite=45.155.204.190
+||edge.chatgpt.com^$dnsrewrite=45.155.204.190
 ||files.oaiusercontent.com^$dnsrewrite=45.155.204.190
+||gov-demo.chatgpt.com^$dnsrewrite=45.155.204.190
 ||gpt3-openai.com^$dnsrewrite=45.155.204.190
 ||gym.openai.com^$dnsrewrite=45.155.204.190
 ||help.openai.com^$dnsrewrite=45.155.204.190
+||hooks-staging.chatgpt.com^$dnsrewrite=45.155.204.190
 ||ios.chat.openai.com^$dnsrewrite=45.155.204.190
 ||jukebox.openai.com^$dnsrewrite=45.155.204.190
 ||labs.openai.com^$dnsrewrite=45.155.204.190
 ||microscope.openai.com^$dnsrewrite=45.155.204.190
 ||oaistatic.com^$dnsrewrite=45.155.204.190
+||ogimg.chatgpt.com^$dnsrewrite=45.155.204.190
 ||openai.com^$dnsrewrite=45.155.204.190
+||openai.fund^$dnsrewrite=45.155.204.190
+||openai.org^$dnsrewrite=45.155.204.190
 ||operator.chatgpt.com^$dnsrewrite=45.155.204.190
 ||platform.api.openai.com^$dnsrewrite=45.155.204.190
 ||platform.openai.com^$dnsrewrite=45.155.204.190
+||privacy-pass-issuer.api.chatgpt.com^$dnsrewrite=45.155.204.190
+||realtime.chatgpt.com^$dnsrewrite=45.155.204.190
+||sdmntpritalynorth.oaiusercontent.com^$dnsrewrite=45.155.204.190
+||sdmntprnortheu.oaiusercontent.com^$dnsrewrite=45.155.204.190
+||sdmntprpolandcentral.oaiusercontent.com^$dnsrewrite=45.155.204.190
+||sdmntprukwest.oaiusercontent.com^$dnsrewrite=45.155.204.190
+||search.chatgpt.com^$dnsrewrite=45.155.204.190
 ||sora.chatgpt.com^$dnsrewrite=45.155.204.190
-||sora.com^$dnsrewrite=45.155.204.190
 ||spinningup.openai.com^$dnsrewrite=45.155.204.190
 ||tcr9i.chat.openai.com^$dnsrewrite=45.155.204.190
 ||universe.openai.com^$dnsrewrite=45.155.204.190
 ||videos.openai.com^$dnsrewrite=45.155.204.190
+||webrtc-staging.chatgpt.com^$dnsrewrite=45.155.204.190
 ||webrtc.chatgpt.com^$dnsrewrite=45.155.204.190
+||ws.chatgpt.com^$dnsrewrite=45.155.204.190
 ||www.chatgpt.com^$dnsrewrite=45.155.204.190
 ||www.openai.com^$dnsrewrite=45.155.204.190
 
@@ -160,11 +215,13 @@
 ||api.claude.ai^$dnsrewrite=45.155.204.190
 ||api.claude.com^$dnsrewrite=45.155.204.190
 ||api.console.anthropic.com^$dnsrewrite=45.155.204.190
+||assets-proxy.anthropic.com^$dnsrewrite=45.155.204.190
 ||auth.anthropic.com^$dnsrewrite=45.155.204.190
 ||claude.ai^$dnsrewrite=45.155.204.190
 ||claude.com^$dnsrewrite=45.155.204.190
 ||claudemcpclient.com^$dnsrewrite=45.155.204.190
 ||console.anthropic.com^$dnsrewrite=45.155.204.190
+||downloads.claude.ai^$dnsrewrite=45.155.204.190
 ||platform.claude.ai^$dnsrewrite=45.155.204.190
 ||platform.claude.com^$dnsrewrite=45.155.204.190
 ||s-cdn.anthropic.com^$dnsrewrite=45.155.204.190
