@@ -1,6 +1,6 @@
 ! AI Unlocker Rules
-! Обновлено: 05.10.2026 12:06:27
-! Правил: 152 из 1000
+! Обновлено: 06.10.2026 11:50:56
+! Правил: 153 из 1000
 ! Формат: AdGuard DNS Rewrite
 
 ! --- OPENAI ---
@@ -36,6 +36,7 @@
 
 ! --- GOOGLE ---
 ||ai.google.dev^$dnsrewrite=159.194.200.33
+||aicode.googleapis.com^$dnsrewrite=159.194.200.33
 ||aisandbox-pa.googleapis.com^$dnsrewrite=159.194.200.33
 ||aistudio.google.com^$dnsrewrite=159.194.200.33
 ||aitestkitchen.withgoogle.com^$dnsrewrite=159.194.200.33
